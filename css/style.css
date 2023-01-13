@@ -118,7 +118,7 @@ h4 a,
 h5 a,
 h6 a {
      color: #212121;
-     text-decoration: none!important;
+     text-decoration: none !important;
      opacity: 1
 }
 
@@ -163,7 +163,7 @@ img {
      height: auto;
 }
 
- :focus {
+:focus {
      outline: 0;
 }
 
@@ -346,7 +346,8 @@ ul.social_icon_top li a:hover {
      font-weight: bold;
      text-transform: uppercase;
 }
-.logo a span{
+
+.logo a span {
      color: green;
 }
 
@@ -502,7 +503,8 @@ ul.search li a:hover {
      padding: 0;
 }
 
-.titlepage span, p {
+.titlepage span,
+p {
      font-size: 22px;
      line-height: 25px;
      color: #0a0a0a;
@@ -564,7 +566,8 @@ ul.search li a:hover {
      padding-top: 35px;
      line-height: 20px;
 }
-#text_hover i img{
+
+#text_hover i img {
      width: 78px;
      height: 76px;
 }
@@ -1085,15 +1088,17 @@ ul.social_icon_staff li a:hover {
 
 
 /** footer **/
-.logo_bottom{
+.logo_bottom {
      color: white;
      font-size: 48px;
      font-weight: bold;
 }
-.logo_bottom span{
+
+.logo_bottom span {
      color: green;
 }
-.logo_bottom:hover{
+
+.logo_bottom:hover {
      color: white;
 }
 
@@ -1227,7 +1232,8 @@ ul.insta li {
      font-weight: normal;
      text-align: left;
 }
-.many span{
+
+.many span {
      font-weight: bold;
      font-size: 20px;
 }
@@ -1313,53 +1319,65 @@ ul.insta li {
           left: 0px;
           top: 0;
      }
+
      20% {
           left: 10%;
           top: 0;
      }
+
      40% {
           left: 20%;
           top: 0;
      }
+
      60% {
           left: 30%;
           top: 0;
      }
+
      80% {
           left: 40%;
           top: 0;
      }
+
      100% {
           left: 50%;
           top: 0;
           ;
      }
+
      /* Standard syntax */
      @keyframes myfirst {
           0% {
                left: 0px;
                top: 0;
           }
+
           20% {
                left: 10%;
                top: 0;
           }
+
           40% {
                left: 20%;
                top: 0;
           }
+
           60% {
                left: 30%;
                top: 0;
           }
+
           80% {
                left: 40%;
                top: 0;
           }
+
           100% {
                left: 50%;
                top: 0;
                transform: rotateY(180deg)
           }
      }
+
      /* end truck*/
