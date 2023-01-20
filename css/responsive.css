@@ -291,6 +291,10 @@
 }
 
 @media (max-width: 575px) {
+    .choose {
+        display: none;
+    }
+
     .back_re .title h2 {
         font-size: 31px;
     }
