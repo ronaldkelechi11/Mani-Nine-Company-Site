@@ -268,7 +268,7 @@
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
         background: transparent;
         border-radius: 0px;
-        color: #f4a111;
+        color: green;
     }
 
     .navigation.navbar-dark .navbar-nav .active>.nav-link,
@@ -277,7 +277,7 @@
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
         background: transparent;
         border-radius: 0px;
-        color: #f4a111;
+        color: green;
     }
 
     .navigation.navbar-dark .navbar-toggler-icon {
@@ -334,6 +334,7 @@
 
     #proj .carousel-control-prev,
     #proj .carousel-control-next {
+        margin: 10px;
         top: 93%;
     }
 
@@ -475,12 +476,11 @@
     .navigation.navbar-dark .navbar-nav .show>.nav-link {
         background: transparent;
         border-radius: 0px;
-        color: #f4a111;
+        color: green;
     }
 
     .navigation.navbar-dark .navbar-toggler-icon {
-        background: url(../images/menu_icon.png);
-        background-repeat: no-repeat;
+        background-image: url("../icons/menu.png");
     }
 
     .d_none {
