@@ -135,10 +135,10 @@
                         <div class="row">
                            <div class="col-md-9">
                               <div class="build_box">
-                                 <h1>We Are Cleaners</h1>
+                                 <h1>We Are <span>Cleaners</span></h1>
                                  <p>We are the best in cleaning in Abuja. <br>
                                     With years of experience and time in handling diffrent types of cleaning tasks.</p>
-                                 <a class="read_more conatct_btn" href="contact.html" role="button">Contact Us</a>
+                                 <a class="read_more conatct_btn" href="#contact" role="button">Contact Us</a>
                               </div>
                            </div>
                         </div>
@@ -151,10 +151,10 @@
                         <div class="row">
                            <div class="col-md-9">
                               <div class="build_box">
-                                 <h1>We Are Maintainers</h1>
-                                 <p>There are many variations of passages of Lorem Ipsum available, but the majority<br>
-                                    There are many variations of passages of</p>
-                                 <a class="read_more conatct_btn" href="contact.html" role="button">Contact Us</a>
+                                 <h1>We Are <span>Maintainers</span></h1>
+                                 <p>We have years of experience in maintenace and Customer Satisfaction Skills.<br>
+                                    Our Resume speaks for itself</p>
+                                 <a class="read_more conatct_btn" href="#contact" role="button">Contact Us</a>
                               </div>
                            </div>
                         </div>
@@ -323,10 +323,10 @@
                                  <div class="col-md-4">
                                     <div class="project">
                                        <div class="project_img">
-                                          <figure><img src="images/project_img2.png" alt="#" /></figure>
+                                          <figure><img src="images/pest_control.webp" alt="#" /></figure>
                                        </div>
                                        <div id="pro_ho" class="project_text">
-                                          <h3>Plumbing Services</h3>
+                                          <h3>Pest Control Services</h3>
                                           <p>There are many variations of passages of Lorem Ipsum available, but the
                                              majority have suffered alteration in some form, by injected humour, or
                                              randomised</p>
@@ -462,19 +462,20 @@
                <form id="request" class="main_form">
                   <div class="row">
                      <div class="col-md-12 ">
-                        <input class="contactus" placeholder="Name" type="type" name="Name">
+                        <input class="contactus" placeholder="Name" type="type" name="Name" id="name">
                      </div>
                      <div class="col-md-12">
-                        <input class="contactus" placeholder="Phone" type="type" name="Phone">
+                        <input class="contactus" placeholder="Phone" type="type" name="Phone" id="phone">
                      </div>
                      <div class="col-md-12">
-                        <input class="contactus" placeholder="Email" type="type" name="Email">
+                        <input class="contactus" placeholder="Email" type="type" name="Email" id="email">
                      </div>
                      <div class="col-md-12">
-                        <textarea class="textarea" placeholder="Message" type="type" Message="Name">Message</textarea>
+                        <textarea class="textarea" placeholder="Message" name="Message" id="message"
+                           type="text"></textarea>
                      </div>
                      <div class="col-md-12">
-                        <button class="send_btn">Send</button>
+                        <button class="send_btn" onclick="getInfo()">Send</button>
                      </div>
                   </div>
                </form>
@@ -575,6 +576,15 @@
    <!-- sidebar -->
    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
    <script src="js/custom.js"></script>
+   <!-- Custom Scripts -->
+   <script src="js/myscript.js"></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+   </script>
+   <script type="text/javascript">
+      (function () {
+         emailjs.init("OJYeijTeomJyu2NsM");
+      })();
+   </script>
 </body>
 
 </html>
